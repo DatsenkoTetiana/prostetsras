@@ -10,14 +10,13 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
 <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    <header class="header">
-        <div class="header__container">
+<body >
+    <header class="header" data-menu data-menu-close>
 <a class="header__logo" href="#"target="_blank" rel="noopener noreferrer">prostetska</a>
-<button class="header__btn">
+<button type="button"  class="header__btn" data-menu-open>
     <svg class="header__icon"><use href="./img/icons.svg#icon-close" width="20" height="20"></use></svg>
 </button>
-<nav class="nav">
+    <nav class="nav">
     <ul class="nav__list">
         <li class="nav__item"><a href="" class="nav__link">ГОЛОВНА</a></li>
         <li class="nav__item">
@@ -34,8 +33,31 @@
                 051 28 29</a>
         </li>
     </ul>
+
+
+    <ul class="reference__list">
+        <li class="reference__item">
+            <a class="reference__link" href="" target="_blank" rel="noopener noreferrer"><svg
+                    class="reference__icon">
+                    <use href=""></use>
+                </svg></a>
+        </li>
+        <li class="reference__item">
+            <a class="reference__link" href="" target="_blank" rel="noopener noreferrer"><svg
+                    class="reference__icon">
+                    <use href=""></use>
+                </svg></a>
+        </li>
+        <li class="reference__item">
+            <a class="reference__link" href="" target="_blank" rel="noopener noreferrer"><svg
+                    class="reference__icon">
+                    <use href=""></use>
+                </svg></a>
+        </li>
+    </ul>
 </nav>
-        </div>
+
+    
     </header>
    
 </nav>
@@ -43,8 +65,8 @@
 <main>
 <section class="hero">
     <div class="container">
-        <button class="burger__btn">
-            <svg width="20" height="20" class="burger__icon" data-menu-open>
+        <button  class="burger__btn" data-menu-open>
+            <svg width="20" height="20" class="burger__icon" >
                 <use href="./images/icons.svg#icon-menu"></use>
             </svg>
         </button>
