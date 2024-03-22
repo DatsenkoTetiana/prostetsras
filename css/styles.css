@@ -1,9 +1,8 @@
 body {
     font-family: var(--main-font);
-    color: var(--main-txt-color);
+    color: #fff;
     background-color: var(--main-bg-color);
     margin: 0;
-    outline: 5px solid #fff;
 }
 
 .no-scroll {
@@ -77,7 +76,7 @@ a {
 }
 
 .section {
-    padding: 10px 0;
+    padding: 0;
 }
 
 .container {
@@ -101,7 +100,7 @@ a {
     height: 20px;
 }
 .burger__icon {
-    fill: var(--main-txt-color);
+    fill: #0c0c0c;
     width: 30px;
     height: 30px;
 }
@@ -155,8 +154,7 @@ a {
     align-items: center;
     height: 100%;
     width: 100%;
-    align-items: center;
-    padding: 15px;
+justify-content: center;    padding: 30px;
     background-color: var(--main-secondary-bg-color);
 }
 
@@ -172,7 +170,7 @@ a {
 }
 
 .nav__link {
-    color: var(--main-txt-color);
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
     line-height: calc(19 / 16);
@@ -184,7 +182,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
-    color: var(--main-txt-color);
+    color: #fff;
     letter-spacing: 0.02em;
 }
 .social__icon {
@@ -195,17 +193,50 @@ a {
 }
 /* hero */
 .hero {
-    padding: 200px 0 120px 0;
+    padding: 400px 0 120px 0;
     text-align: center;
     background-color: var(--main-bg-color);
-    background-image: url("../images/ps-about.JPG");
+    background-image: url("../images/ps-header.jpg");
     width: 100%;
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+.price {
+    padding: 400px 0 120px 0;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    background-image: url("../images/price.jpg");
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.reviews__title{
+    margin: 30px 0;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: calc(23 / 20);
+    text-transform: uppercase;
+    text-align: center;
 
+}
+.reviews__list{
+    display: flex;
+}
+.galery{
+    padding: 250px 0 150px 0;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    background-image: url("../images/colage.jpg");
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
 .hero__title {
     font-size: 23px;
     font-weight: 400;
@@ -258,8 +289,9 @@ a {
     cursor: pointer;
     border-radius: 2px;
     border: none;
-    color-scheme: var(--main-txt-color);
-    background-color: #1a1d21;
+    color-scheme: #0c0c0c;
+    background-color: #f8f7f4;
+
 }
 
 /* service */
